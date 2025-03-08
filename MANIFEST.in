@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include leekimerp *.css
+recursive-include leekimerp *.csv
+recursive-include leekimerp *.html
+recursive-include leekimerp *.ico
+recursive-include leekimerp *.js
+recursive-include leekimerp *.json
+recursive-include leekimerp *.md
+recursive-include leekimerp *.png
+recursive-include leekimerp *.py
+recursive-include leekimerp *.svg
+recursive-include leekimerp *.txt
+recursive-exclude leekimerp *.pyc
